@@ -1,12 +1,8 @@
-/* universal css start */
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Rubik', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-family: Rubik, sans-serif;
 }
-
-/* universal css end */
-
 /* header part start */
 .header_container {
     display: flex;
@@ -20,7 +16,7 @@
     width: 50%;
 }
 
-.logo img {}
+/* .logo img {} */
 
 .subscribe {
     width: 50%;
@@ -28,14 +24,62 @@
 }
 
 .subscribe button {
-
     border: none;
     background: transparent;
     text-align: center;
     text-transform: uppercase;
     padding: 10px;
-    color: #97999b;
+    color: rgb(151, 153, 155);
     border-radius: 5px;
+    cursor: pointer;
+}
+/* End header part */
+
+/* banner section start */
+
+.banner_container {
+    background-image: url("/assets/banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 88vh;
+    position: relative;
 }
 
-/* header part end */
+.banner_element {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 35%;
+    color: white;
+    text-align: center;
+    transform: translate(-50%, 110%);
+}
+
+.banner_element h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.banner_element p {
+    text-transform: capitalize;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.banner_element button {
+    border: 1px solid white;
+    border-radius: 5px;
+    background: rgb(255 22 128);
+    margin: 10px 0px;
+    font-size: 15px;
+    padding: 15px 44px;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.banner_element button:hover {
+    background: transparent;
+    cursor: pointer;
+}
+/* banner section end here */
