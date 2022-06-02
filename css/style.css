@@ -1,0 +1,41 @@
+/* universal css start */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* universal css end */
+
+/* header part start */
+.header_container {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 10px 50px;
+    justify-content: end;
+}
+
+.logo {
+    width: 50%;
+}
+
+.logo img {}
+
+.subscribe {
+    width: 50%;
+    margin-left: 70%;
+}
+
+.subscribe button {
+
+    border: none;
+    background: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    color: #97999b;
+    border-radius: 5px;
+}
+
+/* header part end */
