@@ -1,5 +1,5 @@
 * {
-    /* margin: -8px 0; */
+    /* margin: -3px 0; */
     padding: 0px;
     font-family: Rubik, sans-serif;
 }
@@ -278,3 +278,41 @@
 }
 
 /* Blog section end here */
+
+/* Footer section start */
+.footer_container {
+    background-color: #292c34;
+    min-height: 20vh;
+    display: flex;
+    color: white;
+}
+
+.one {
+    width: 50%;
+    /* margin-left: -3px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.two {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_img {
+
+    /* margin-left: -6px; */
+}
+
+.footer_text {
+
+    margin-left: 50px;
+}
+
+.two img {
+
+    margin-left: 49px;
+}
