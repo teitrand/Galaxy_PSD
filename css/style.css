@@ -1,8 +1,9 @@
 * {
-    margin: 0px;
+    /* margin: -8px 0; */
     padding: 0px;
     font-family: Rubik, sans-serif;
 }
+
 /* header part start */
 .header_container {
     display: flex;
@@ -16,7 +17,6 @@
     width: 50%;
 }
 
-/* .logo img {} */
 
 .subscribe {
     width: 50%;
@@ -33,6 +33,7 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
 /* End header part */
 
 /* banner section start */
@@ -70,7 +71,7 @@
 .banner_element button {
     border: 1px solid white;
     border-radius: 5px;
-    background: rgb(255 22 128);
+    background: rgb(251 110 82);
     margin: 10px 0px;
     font-size: 15px;
     padding: 15px 44px;
@@ -82,4 +83,198 @@
     background: transparent;
     cursor: pointer;
 }
+
 /* banner section end here */
+
+/* Service section start here  */
+.service_section {}
+
+.service_section h1 {
+    margin: 20px 528px;
+    padding: 13px 25px;
+    display: inline-flex;
+    border-bottom: 1px solid #fb6e52;
+    font-size: 33px;
+}
+
+.service_container {
+    margin: 10px 0;
+    padding: 25px 50px;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.service {
+    margin: 10px;
+    background-color: #9693933b;
+    border-radius: 19px;
+}
+
+.service_img {
+    margin: -39px auto;
+    background: #fb6e52;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    position: relative;
+}
+
+.service_img img {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(42%, -42%);
+}
+
+.service_element {
+    padding: 24px;
+}
+
+/* Service section end here  */
+
+/* quote section start here */
+.blog_heading {
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.quote_section {
+    margin: 10px auto;
+    width: 60%;
+    font-size: 30px;
+    color: #fb6e52;
+    padding: 50px;
+    text-align: center;
+}
+
+/* quote section end here */
+
+/* portfolio sample start here */
+.portfolio_section h1 {
+    margin: 10px 528px;
+    padding: 20px 0px;
+    display: inline-block;
+    border-bottom: 1px solid #fb6e52;
+    font-size: 33px;
+}
+
+.blog_section {
+    padding: 5px;
+    background-color: #e7e6e6;
+}
+
+.portfolio_container {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sample_design {
+    background: #e7e6e6;
+    border-radius: 10px;
+    margin: 10px 10px;
+    width: 30%;
+    text-align: center;
+    /* padding: 40px; */
+}
+
+.sample_design h3 {
+
+    background: #fb6e525e;
+
+    border-radius: 20px;
+
+    display: inline;
+
+    padding: 3px 16px;
+}
+
+.sample_design p {
+    /* background: teal; */
+    border-radius: 17px;
+    color: rgb(151, 153, 155);
+    /* display: inline-block; */
+}
+
+.sample_design button {
+    border: 1px solid black;
+    padding: 10px 49px;
+    border-radius: 27px;
+    background: transparent;
+    margin: 10px 0;
+    transition-duration: 0.5s;
+    boder: 1px solid teal;
+}
+
+.sample_design button:hover {
+
+    background-color: #101c2a;
+
+    color: #66da9b;
+}
+
+.design_img {
+    padding: 24px;
+}
+
+.design_img img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* portfolio sample end  here */
+/* Blog section start here */
+
+.blog_container {
+    /* background-color: #f9f9f9; */
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog_heading {}
+
+.blog {
+    text-align: center;
+    width: 40%;
+}
+
+.blog h3 {}
+
+.blog h5 {
+    color: rgb(151, 153, 155);
+}
+
+.blog p {}
+
+.blog button {
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: transparent;
+    margin: 10px 0;
+    transition-duration: 0.5s;
+}
+
+.blog button:hover {
+    background-color: #101c2a;
+    color: #66da9b;
+}
+
+.blog_img {
+
+    padding: 0px 30px;
+}
+
+.blog_img img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* Blog section end here */
