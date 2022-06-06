@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cda4d99b-c46f-4c83-8ae9-ff073fe8d168" name="Changes" comment="" />
+    <list default="true" id="cda4d99b-c46f-4c83-8ae9-ff073fe8d168" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,9 +30,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -39,11 +50,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654554109154</updated>
-      <workItem from="1654554113317" duration="230000" />
+      <workItem from="1654554113317" duration="425000" />
     </task>
+    <task id="LOCAL−00001" summary="Gitignore">
+      <created>1654554378638</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1654554378638</updated>
+    </task>
+    <task id="LOCAL−00002" summary="Initial commit">
+      <created>1654554415859</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1654554415859</updated>
+    </task>
+    <task id="LOCAL−00003" summary="Remove vscode files">
+      <created>1654554455869</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1654554455869</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Gitignore" />
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Remove vscode files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove vscode files" />
   </component>
 </project>
